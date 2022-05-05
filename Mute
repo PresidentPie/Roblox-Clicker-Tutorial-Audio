@@ -1,0 +1,5 @@
+local Music = workspace.BackgroundMusic
+
+script.Parent.MouseButton1Click:Connect(function()
+    Music.Playing = not Music.Playing
+end)
